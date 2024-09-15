@@ -72,7 +72,7 @@ const EventInvitation = () => {
       </View>
       <Text style={styles.montText}>Total de Pessoas: {totalPeople}</Text>
       <Pressable style={styles.button} onPress={handleConfirmPresence}>
-        <Text style={styles.buttonText}>Confirmar Presença</Text>
+        <Text style={styles.buttonText}>Confirmar Presença!</Text>
       </Pressable>
     </View>
   );
