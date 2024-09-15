@@ -50,7 +50,7 @@ const EventInvitation = () => {
   return (
     <View style={styles.container}>
       {fontLoaded && <Text style={styles.title}>Confirme a sua presença!</Text>}
-      <Text style={styles.montText}>Data: 31/12/2024</Text>
+      <Text style={styles.montText}>Data: 31/09/2024</Text>
       <Image source={require('./assets/img.jpeg')} style={styles.image} />
       <Text style={styles.montText}>
         Casamento começa em: {timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s
